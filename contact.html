@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Claude Eisensaurier — Kontakt</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="logo">CE</a>
+    <ul>
+      <li><a href="index.html" data-de="Start" data-en="Home">Start</a></li>
+      <li><a href="about.html" data-de="Über mich" data-en="About">Über mich</a></li>
+      <li><a href="portfolio.html" data-de="Portfolio" data-en="Portfolio">Portfolio</a></li>
+      <li><a href="contact.html" class="active" data-de="Kontakt" data-en="Contact">Kontakt</a></li>
+    </ul>
+    <button class="lang-toggle" onclick="toggleLang()">EN</button>
+  </nav>
+
+  <section class="page-header">
+    <div class="page-header-inner">
+      <p class="page-label" data-de="Schreib mir" data-en="Say hello">Schreib mir</p>
+      <h1 data-de="Kontakt & Prints." data-en="Contact & Prints.">Kontakt & Prints.</h1>
+    </div>
+    <div class="page-header-line"></div>
+  </section>
+
+  <!-- PRINTS INFO -->
+  <section class="prints-info-section">
+    <div class="prints-info-inner">
+      <div class="print-option">
+        <span class="print-icon">▢</span>
+        <h4 data-de="Fine-Art Prints" data-en="Fine Art Prints">Fine-Art Prints</h4>
+        <p data-de="Hochwertige Drucke auf Hahnemühle Photo Rag Papier, signiert und nummeriert." data-en="High-quality prints on Hahnemühle Photo Rag paper, signed and numbered.">Hochwertige Drucke auf Hahnemühle Photo Rag Papier, signiert und nummeriert.</p>
+      </div>
+      <div class="print-option">
+        <span class="print-icon">◻</span>
+        <h4 data-de="Grössen" data-en="Sizes">Grössen</h4>
+        <p data-de="A4 · A3 · A2 · 30×45 cm · auf Anfrage auch Sonderformate." data-en="A4 · A3 · A2 · 30×45 cm · custom sizes on request.">A4 · A3 · A2 · 30×45 cm · auf Anfrage auch Sonderformate.</p>
+      </div>
+      <div class="print-option">
+        <span class="print-icon">◽</span>
+        <h4 data-de="Lieferung" data-en="Shipping">Lieferung</h4>
+        <p data-de="Schweizweite Lieferung. International auf Anfrage. Sorgfältig verpackt." data-en="Nationwide shipping in Switzerland. International on request. Carefully packaged.">Schweizweite Lieferung. International auf Anfrage. Sorgfältig verpackt.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-left">
+      <h2 data-de="Lass uns reden." data-en="Let's talk.">Lass uns reden.</h2>
+      <p data-de="Ob Print-Anfrage, Auftragsfoto oder einfach ein Hallo — ich freue mich auf deine Nachricht." data-en="Whether it's a print request, commission or just a hello — I look forward to hearing from you.">Ob Print-Anfrage, Auftragsfoto oder einfach ein Hallo — ich freue mich auf deine Nachricht.</p>
+
+      <div class="contact-info-list">
+        <div class="ci-item">
+          <span class="ci-label" data-de="E-Mail" data-en="Email">E-Mail</span>
+          <a href="mailto:hallo@claudeeisensaurier.ch" class="ci-val">hallo@claudeeisensaurier.ch</a>
+        </div>
+        <div class="ci-item">
+          <span class="ci-label" data-de="Standort" data-en="Location">Standort</span>
+          <span class="ci-val" data-de="Aargau, Schweiz" data-en="Aargau, Switzerland">Aargau, Schweiz</span>
+        </div>
+        <div class="ci-item">
+          <span class="ci-label">Instagram</span>
+          <a href="https://instagram.com" target="_blank" class="ci-val">@claudeeisensaurier</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-right">
+      <div class="contact-form">
+        <div class="form-group">
+          <label data-de="Name" data-en="Name">Name</label>
+          <input type="text" placeholder="Anna Müller" />
+        </div>
+        <div class="form-group">
+          <label data-de="E-Mail" data-en="Email">E-Mail</label>
+          <input type="email" placeholder="anna@beispiel.ch" />
+        </div>
+        <div class="form-group">
+          <label data-de="Betreff" data-en="Subject">Betreff</label>
+          <input type="text"
+            data-de-placeholder="Print-Anfrage / Auftrag / Frage"
+            data-en-placeholder="Print request / Commission / Question"
+            placeholder="Print-Anfrage / Auftrag / Frage" />
+        </div>
+        <div class="form-group">
+          <label data-de="Nachricht" data-en="Message">Nachricht</label>
+          <textarea rows="5"
+            data-de-placeholder="Welches Foto interessiert dich? Welche Grösse? …"
+            data-en-placeholder="Which photo interests you? Which size? …"
+            placeholder="Welches Foto interessiert dich? Welche Grösse? …"></textarea>
+        </div>
+        <button class="btn full-width" data-de="Nachricht senden" data-en="Send message">Nachricht senden</button>
+        <p class="form-note" data-de="Für echten E-Mail-Versand: Formspree.io einbinden (Anleitung im README)." data-en="For real email sending: integrate Formspree.io (instructions in README).">Für echten E-Mail-Versand: Formspree.io einbinden (Anleitung im README).</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span class="footer-logo">Claude Eisensaurier</span>
+    <span data-de="© 2025 Alle Rechte vorbehalten" data-en="© 2025 All rights reserved">© 2025 Alle Rechte vorbehalten</span>
+  </footer>
+
+  <script src="lang.js"></script>
+</body>
+</html>

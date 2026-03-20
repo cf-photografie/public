@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Claude Eisensaurier — Über mich</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="logo">CE</a>
+    <ul>
+      <li><a href="index.html" data-de="Start" data-en="Home">Start</a></li>
+      <li><a href="about.html" class="active" data-de="Über mich" data-en="About">Über mich</a></li>
+      <li><a href="portfolio.html" data-de="Portfolio" data-en="Portfolio">Portfolio</a></li>
+      <li><a href="contact.html" data-de="Kontakt" data-en="Contact">Kontakt</a></li>
+    </ul>
+    <button class="lang-toggle" onclick="toggleLang()">EN</button>
+  </nav>
+
+  <section class="page-header">
+    <div class="page-header-inner">
+      <p class="page-label" data-de="Über mich" data-en="About me">Über mich</p>
+      <h1 data-de="Der Mensch hinter der Kamera." data-en="The person behind the camera.">Der Mensch hinter der Kamera.</h1>
+    </div>
+    <div class="page-header-line"></div>
+  </section>
+
+  <section class="about-bio">
+    <div class="about-portrait">
+      <div class="portrait-placeholder">
+        <div class="portrait-shape"></div>
+        <span class="portrait-label" data-de="Foto folgt" data-en="Photo coming">Foto folgt</span>
+      </div>
+    </div>
+    <div class="about-text">
+      <h2>Claude Eisensaurier</h2>
+      <p data-de="Ich bin 27 Jahre alt, im Aargau aufgewachsen und seit meiner Kindheit fasziniert von der Fotografie. Was als neugieriges Ausprobieren mit der Kamera meiner Eltern begann, ist heute meine grösste Leidenschaft." data-en="I am 27 years old, grew up in Aargau and have been fascinated by photography since childhood. What started as curious experimentation with my parents' camera has become my greatest passion today.">Ich bin 27 Jahre alt, im Aargau aufgewachsen und seit meiner Kindheit fasziniert von der Fotografie. Was als neugieriges Ausprobieren mit der Kamera meiner Eltern begann, ist heute meine grösste Leidenschaft.</p>
+      <p data-de="Mich faszinieren drei Welten: Die Seele des Menschen im Portrait, die raue Ehrlichkeit der Stadt und die stille Kraft der Natur. Jedes Foto ist für mich ein eingefrorener Augenblick — ein Moment, der sonst spurlos vergehen würde." data-en="I am fascinated by three worlds: the soul of people in portraits, the raw honesty of the city, and the quiet power of nature. Every photo is a frozen moment for me — an instant that would otherwise pass without a trace.">Mich faszinieren drei Welten: Die Seele des Menschen im Portrait, die raue Ehrlichkeit der Stadt und die stille Kraft der Natur. Jedes Foto ist für mich ein eingefrorener Augenblick — ein Moment, der sonst spurlos vergehen würde.</p>
+      <p data-de="Neben dem Fotografieren biete ich ausgewählte Werke als limitierte Fine-Art-Prints an — für alle, die einen besonderen Moment ins eigene Zuhause bringen möchten." data-en="Alongside photography, I offer selected works as limited fine art prints — for those who want to bring a special moment into their own home.">Neben dem Fotografieren biete ich ausgewählte Werke als limitierte Fine-Art-Prints an — für alle, die einen besonderen Moment ins eigene Zuhause bringen möchten.</p>
+
+      <div class="about-details">
+        <div class="detail-item">
+          <span class="detail-label" data-de="Alter" data-en="Age">Alter</span>
+          <span class="detail-val" data-de="27 Jahre" data-en="27 years">27 Jahre</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label" data-de="Heimat" data-en="Home">Heimat</span>
+          <span class="detail-val" data-de="Aargau, Schweiz" data-en="Aargau, Switzerland">Aargau, Schweiz</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label" data-de="Schwerpunkte" data-en="Focus">Schwerpunkte</span>
+          <span class="detail-val" data-de="Menschen · Urban · Natur" data-en="People · Urban · Nature">Menschen · Urban · Natur</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label" data-de="Verfügbar für" data-en="Available for">Verfügbar für</span>
+          <span class="detail-val" data-de="Print-Anfragen · Auftragsfotos · Kollaborationen" data-en="Print Requests · Commissions · Collaborations">Print-Anfragen · Auftragsfotos · Kollaborationen</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="timeline-section">
+    <h3 data-de="Mein Weg" data-en="My Journey">Mein Weg</h3>
+    <div class="timeline">
+      <div class="tl-item">
+        <span class="tl-year">2025</span>
+        <div class="tl-dot"></div>
+        <p class="tl-desc" data-de="Start dieser Website & erste Print-Verkäufe" data-en="Launch of this website & first print sales">Start dieser Website & erste Print-Verkäufe</p>
+      </div>
+      <div class="tl-item">
+        <span class="tl-year">2023</span>
+        <div class="tl-dot"></div>
+        <p class="tl-desc" data-de="Erste Ausstellung im Aargau" data-en="First exhibition in Aargau">Erste Ausstellung im Aargau</p>
+      </div>
+      <div class="tl-item">
+        <span class="tl-year">2021</span>
+        <div class="tl-dot"></div>
+        <p class="tl-desc" data-de="Umstieg auf Vollformat & ernsthaftes Hobby" data-en="Switch to full frame & serious hobby">Umstieg auf Vollformat & ernsthaftes Hobby</p>
+      </div>
+      <div class="tl-item">
+        <span class="tl-year">früh</span>
+        <div class="tl-dot"></div>
+        <p class="tl-desc" data-de="Erste Kamera — die Leidenschaft beginnt" data-en="First camera — the passion begins">Erste Kamera — die Leidenschaft beginnt</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-cta">
+    <p data-de="Interesse an einem Print oder einer Zusammenarbeit?" data-en="Interested in a print or collaboration?">Interesse an einem Print oder einer Zusammenarbeit?</p>
+    <a href="contact.html" class="btn" data-de="Kontakt aufnehmen" data-en="Get in touch">Kontakt aufnehmen</a>
+  </section>
+
+  <footer>
+    <span class="footer-logo">Claude Eisensaurier</span>
+    <span data-de="© 2025 Alle Rechte vorbehalten" data-en="© 2025 All rights reserved">© 2025 Alle Rechte vorbehalten</span>
+  </footer>
+
+  <script src="lang.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "fotos/menschen/foto1.jpg",
+    "titel_de": "Strassenportrait I",
+    "titel_en": "Street Portrait I",
+    "kategorie": "menschen"
+  },
+  {
+    "file": "fotos/menschen/foto2.jpg",
+    "titel_de": "Blick",
+    "titel_en": "Gaze",
+    "kategorie": "menschen"
+  },
+  {
+    "file": "fotos/urban/foto1.jpg",
+    "titel_de": "Altstadt",
+    "titel_en": "Old Town",
+    "kategorie": "urban"
+  },
+  {
+    "file": "fotos/urban/foto2.jpg",
+    "titel_de": "Nachtlichter",
+    "titel_en": "Night Lights",
+    "kategorie": "urban"
+  },
+  {
+    "file": "fotos/natur/foto1.jpg",
+    "titel_de": "Morgennebel",
+    "titel_en": "Morning Mist",
+    "kategorie": "natur"
+  },
+  {
+    "file": "fotos/natur/foto2.jpg",
+    "titel_de": "Aargauer Hügel",
+    "titel_en": "Aargau Hills",
+    "kategorie": "natur"
+  }
+]

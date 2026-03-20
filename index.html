@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Claude Eisensaurier — Fotografie</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="logo">CE</a>
+    <ul>
+      <li><a href="index.html" class="active" data-de="Start" data-en="Home">Start</a></li>
+      <li><a href="about.html" data-de="Über mich" data-en="About">Über mich</a></li>
+      <li><a href="portfolio.html" data-de="Portfolio" data-en="Portfolio">Portfolio</a></li>
+      <li><a href="contact.html" data-de="Kontakt" data-en="Contact">Kontakt</a></li>
+    </ul>
+    <button class="lang-toggle" onclick="toggleLang()">EN</button>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hero-label" data-de="Hobbyfotograf · Aargau, Schweiz" data-en="Hobby Photographer · Aargau, Switzerland">Hobbyfotograf · Aargau, Schweiz</p>
+      <h1 class="hero-title">
+        <span class="line" data-de="Momente" data-en="Moments">Momente</span>
+        <span class="line italic" data-de="festgehalten." data-en="captured.">festgehalten.</span>
+      </h1>
+      <p class="hero-sub" data-de="Menschen, Stadtleben und Natur — durch meine Linse entsteht eine Geschichte aus Licht, Schatten und Emotion." data-en="People, urban life and nature — through my lens a story emerges from light, shadow and emotion.">Menschen, Stadtleben und Natur — durch meine Linse entsteht eine Geschichte aus Licht, Schatten und Emotion.</p>
+      <div class="hero-btns">
+        <a href="portfolio.html" class="btn" data-de="Portfolio entdecken" data-en="Explore Portfolio">Portfolio entdecken</a>
+        <a href="contact.html" class="btn btn-outline" data-de="Prints anfragen" data-en="Request Prints">Prints anfragen</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <span class="hero-year">© Claude Eisensaurier</span>
+    </div>
+  </section>
+
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>Menschen &nbsp;·&nbsp; Urban &nbsp;·&nbsp; Natur &nbsp;·&nbsp; Portrait &nbsp;·&nbsp; Streetfotografie &nbsp;·&nbsp; Landschaft &nbsp;·&nbsp; People &nbsp;·&nbsp; Urban &nbsp;·&nbsp; Nature &nbsp;·&nbsp; Landscape &nbsp;·&nbsp; Street &nbsp;·&nbsp; </span>
+      <span>Menschen &nbsp;·&nbsp; Urban &nbsp;·&nbsp; Natur &nbsp;·&nbsp; Portrait &nbsp;·&nbsp; Streetfotografie &nbsp;·&nbsp; Landschaft &nbsp;·&nbsp; People &nbsp;·&nbsp; Urban &nbsp;·&nbsp; Nature &nbsp;·&nbsp; Landscape &nbsp;·&nbsp; Street &nbsp;·&nbsp; </span>
+    </div>
+  </div>
+
+  <section class="intro-section">
+    <div class="intro-left"><div class="intro-index">01</div></div>
+    <div class="intro-right">
+      <h2 data-de="Fotografie ist meine Sprache." data-en="Photography is my language.">Fotografie ist meine Sprache.</h2>
+      <p data-de="Aufgewachsen im Aargau, habe ich die Leidenschaft zur Fotografie schon früh entdeckt. Was als Hobby begann, ist heute mein Weg, die Welt zu sehen und zu teilen — ob ein flüchtiger Blick auf der Strasse, die Stille der Natur oder das Treiben in der Stadt." data-en="Growing up in Aargau, I discovered my passion for photography early on. What started as a hobby is now my way of seeing and sharing the world — whether a fleeting glance on the street, the stillness of nature or the bustle of the city.">Aufgewachsen im Aargau, habe ich die Leidenschaft zur Fotografie schon früh entdeckt. Was als Hobby begann, ist heute mein Weg, die Welt zu sehen und zu teilen — ob ein flüchtiger Blick auf der Strasse, die Stille der Natur oder das Treiben in der Stadt.</p>
+      <a href="about.html" class="link-arrow" data-de="Mehr über mich →" data-en="More about me →">Mehr über mich →</a>
+    </div>
+  </section>
+
+  <section class="categories-section">
+    <a href="portfolio.html?filter=menschen" class="cat-card">
+      <div class="cat-img cat-menschen">
+        <div class="cat-overlay"></div>
+        <div class="cat-label-wrap">
+          <span class="cat-num">01</span>
+          <h3 data-de="Menschen" data-en="People">Menschen</h3>
+          <p data-de="Porträts & Emotionen" data-en="Portraits & Emotions">Porträts & Emotionen</p>
+        </div>
+      </div>
+    </a>
+    <a href="portfolio.html?filter=urban" class="cat-card">
+      <div class="cat-img cat-urban">
+        <div class="cat-overlay"></div>
+        <div class="cat-label-wrap">
+          <span class="cat-num">02</span>
+          <h3 data-de="Urban" data-en="Urban">Urban</h3>
+          <p data-de="Stadt & Architektur" data-en="City & Architecture">Stadt & Architektur</p>
+        </div>
+      </div>
+    </a>
+    <a href="portfolio.html?filter=natur" class="cat-card">
+      <div class="cat-img cat-natur">
+        <div class="cat-overlay"></div>
+        <div class="cat-label-wrap">
+          <span class="cat-num">03</span>
+          <h3 data-de="Natur" data-en="Nature">Natur</h3>
+          <p data-de="Landschaft & Licht" data-en="Landscape & Light">Landschaft & Licht</p>
+        </div>
+      </div>
+    </a>
+  </section>
+
+  <section class="prints-cta">
+    <div class="prints-cta-inner">
+      <p class="page-label" data-de="Limitierte Prints" data-en="Limited Prints">Limitierte Prints</p>
+      <h2 data-de="Dein Lieblingsmoment als Wandbild." data-en="Your favourite moment as wall art.">Dein Lieblingsmoment als Wandbild.</h2>
+      <p data-de="Ausgewählte Fotografien sind als hochwertige Fine-Art-Prints erhältlich. Jedes Bild wird auf Anfrage signiert und nummeriert." data-en="Selected photographs are available as high-quality fine art prints. Each image is signed and numbered on request.">Ausgewählte Fotografien sind als hochwertige Fine-Art-Prints erhältlich. Jedes Bild wird auf Anfrage signiert und nummeriert.</p>
+      <a href="contact.html" class="btn" data-de="Print anfragen" data-en="Request a Print">Print anfragen</a>
+    </div>
+  </section>
+
+  <footer>
+    <span class="footer-logo">Claude Eisensaurier</span>
+    <span data-de="© 2025 Alle Rechte vorbehalten" data-en="© 2025 All rights reserved">© 2025 Alle Rechte vorbehalten</span>
+  </footer>
+
+  <script src="lang.js"></script>
+</body>
+</html>
