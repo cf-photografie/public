@@ -1,0 +1,38 @@
+[
+  {
+    "file": "fotos/menschen/mann-strasse.jpeg",
+    "titel_de": "Der Gang",
+    "titel_en": "The Walk",
+    "kategorie": "menschen"
+  },
+  {
+    "file": "fotos/menschen/auge.jpeg",
+    "titel_de": "Blick",
+    "titel_en": "Gaze",
+    "kategorie": "menschen"
+  },
+  {
+    "file": "fotos/urban/tram-zuerich.jpeg",
+    "titel_de": "Linie 8",
+    "titel_en": "Line 8",
+    "kategorie": "urban"
+  },
+  {
+    "file": "fotos/urban/lugano-nacht.jpeg",
+    "titel_de": "Lugano bei Nacht",
+    "titel_en": "Lugano by Night",
+    "kategorie": "urban"
+  },
+  {
+    "file": "fotos/natur/nebelwald.jpeg",
+    "titel_de": "Nebelwald",
+    "titel_en": "Misty Forest",
+    "kategorie": "natur"
+  },
+  {
+    "file": "fotos/natur/wasserfall.jpeg",
+    "titel_de": "Wasserfall",
+    "titel_en": "Waterfall",
+    "kategorie": "natur"
+  }
+]
