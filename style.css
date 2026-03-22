@@ -9,10 +9,10 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #faf8f5;
-  --ink: #111111;
+  --bg: #111111;
+  --ink: #f0ede8;
   --muted: #888880;
-  --line: rgba(0,0,0,0.1);
+  --line: rgba(255,255,255,0.1);
   --serif: 'Cormorant Garamond', Georgia, serif;
   --sans: 'DM Sans', system-ui, sans-serif;
   --nav-h: 72px;
